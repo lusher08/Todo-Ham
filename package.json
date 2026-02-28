@@ -1,0 +1,9 @@
+{
+  "name": "todo-ham",
+  "version": "1.0.0",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^4.18.0",
+    "express-basic-auth": "^1.2.1"
+  }
+}
