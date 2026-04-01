@@ -6,7 +6,7 @@ const app       = express();
 app.use(basicAuth({
     users: { 'minutapita': '0925' },
     challenge: true,
-    realm: '🐹 Todo Ham'
+    realm: 'Todo Ham'
 }));
 
 app.use(express.static(path.join(__dirname, 'public')));
